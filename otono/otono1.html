@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Poema de otoño</title>
+    <link href="https://fonts.googleapis.com/css?family=Playball&display=swap" rel="stylesheet">
+    <link href="imagenes/favicon.ico" rel="icon">
+    <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pangolin&display=swap" rel="stylesheet">
+    <!-- la siguiente hoja de estilo es responsive. La página se verá bien desde móvil
+         y tablet también, porque tanto la imagen como el texto se adaptan a diferentes anchos -->
+    <style>
+       body {
+        /* el tipo de letra achica la fuente, por lo que es necesario un ajuste al alza */
+             font-size:120%;
+        /* el color de fondo se ve en la zona no cubierta por el patrón de hojas */
+             background-color:rgb(255, 136, 0);
+             background-image:url("imagenes/oto2.jpg");
+        /* el patrón de hojas se repite en vertical en el lado izquierdo */
+             background-repeat:repeat-y;
+        /* el patrón se ha reducido porque era muy grande y en móviles se
+           comía todo el ancho */
+             background-size:25%}
+        /* todo el poema se desplaza a la derecha, para que no colisione con el tapiz de fondo */
+       #wrapper {margin-left:30%;}
+       h1,h2 {color:rgba(61, 99, 99, 0.849);}
+       p {color:slategray;
+          font-size: 25px;
+          text-align: left;
+          margin: 10px auto;
+          font-family: 'Pangolin', cursive;
+          color: cornsilk;
+          }
+       #titulo{color: black;
+       font-size: 80px;
+       font-family: 'Sedgwick Ave Display', cursive;}
+
+       #autor{color: black;
+       font-size: 30px;
+       font-family: 'Sedgwick Ave Display', cursive;}
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <h1 id="titulo">Octubre de Otoño</h1>
+
+        <p>Esparce octubre, al blando movimiento <br>
+          del sur, las hojas áureas y las rojas, <br>
+          y, en la caída clara de sus hojas, <br>
+          se lleva al infinito el pensamiento. <br>
+          <br>
+          </p>
+        
+        
+        <p>Qué noble paz en este alejamiento <br>
+          de todo; oh prado bello que deshojas <br>
+          tus flores; oh agua fría ya, que mojas <br>
+          con tu cristal estremecido el viento!<br>
+          <br> </p>
+        
+        
+        <p>¡Encantamiento de oro! Cárcel pura,<br>
+          en que el cuerpo, hecho alma, se enternece, <br>
+          echado en el verdor de una colina!<br>
+          <br> </p>
+        
+        
+        <p>En una decadencia de hermosura, <br>
+          la vida se desnuda, y resplandece <br>
+          la excelsitud de su verdad divina.<br>
+          <br> </p>
+        
+        <h2 id="autor">Juan Ramón Jiménez</h2>
+    </div>
+</body>
+</html>

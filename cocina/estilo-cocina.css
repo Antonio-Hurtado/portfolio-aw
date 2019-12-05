@@ -1,0 +1,42 @@
+/* este es el estilo de mi página de recetas */
+
+body {background-image:url("imagenes/perrito.png");
+      background-size:200px 200px;}
+#wrapper {width:90%;
+          height:900px; /* luego lo quito */
+          background-color:rgb(253, 216, 178);
+          margin:auto;
+          padding:1vw;
+          border:1px solid black;
+          overflow: auto;
+      }
+ul {list-style-image: url(imagenes/hotdog2.png);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;}
+h1 {text-align:center;
+    color:rgb(231, 93, 50);
+    font-family: 'Permanent Marker', cursive;
+    }
+h2 {color: #ff7300;}
+#ingredientes {color: rgb(238, 107, 0);
+                font-family: 'Bree Serif', serif;}
+table {border:2px solid rgb(0, 0, 0);
+        border-collapse: collapse;}
+td, th {text-align: center;
+        color: rgb(0, 0, 0);
+        border:1px solid rgb(0, 0, 0);
+        padding: 10px;}
+tr:hover {background-color: rgb(238, 48, 0);}
+th:hover {color: black;}
+#preparacion {color: rgb(0, 0, 0);
+                font-family: 'Bree Serif', serif;}
+#preptitulo {color: rgb(238, 107, 0);
+            font-family: 'Bree Serif', serif;}
+#tabla {color: rgb(238, 107, 0);
+        font-family: 'Bree Serif', serif;}
+li {list-st;}
+
+/* vamos autilizar un recurso media query que trata de incluir una especie de "if" y una condicion para que cambie algo en el estilo cuando tengo una pantalla pequeña */
+@media only screen and (max-widht:500px){
+    #wrapper {width:100%}
+}
